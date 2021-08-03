@@ -1,0 +1,260 @@
+<!-- Created by minal mukarande -->
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Indian Number Otp Bazaar</title>
+
+    <meta name=viewport content="width=dev ise-width, initial-scale=1 user-scalable=no">
+    </meta>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+    <style>
+        /* Created by minal mukarande */
+
+
+
+        html {
+            background-image: url('https://i.postimg.cc/nLs3jJr5/4ae8c9fccd882109292886398e30b1e8.jpg');
+
+        }
+
+        body {
+            background-image: url(' ');
+            opacity: 80%;
+
+        }
+
+        .title {
+            align: center;
+            color: white;
+            font-family: 'David Libre', 'serif';
+            margin-top: 15%;
+            margin-bottom: -10%;
+
+        }
+
+
+
+        .input1 {
+            color: black;
+            outline: none;
+            border-radius: 10px;
+            width: 55%;
+            margin-top: 110px;
+            margin-left: 90px;
+            padding: 8px;
+            font-family: 'David Libre', 'serif';
+            transparent: 30px;
+            font-size: 13pt;
+            opacity: 80%;
+        }
+
+        .input2 {
+
+            border-radius: 10px;
+            width: 55%;
+            margin-top: 30px;
+            margin-left: 90px;
+            padding: 8px;
+            font-family: 'David Libre', 'serif';
+            font-size: 13pt;
+            opacity: 80%;
+            outline: none;
+        }
+
+        .button {
+            border-radius: 10px;
+            margin-left: 45%;
+            margin-top: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 12px;
+            padding-left: 12px;
+            font-family: 'David Libre', 'serif';
+            background-color: #283044;
+            color: white;
+            outline: none;
+        }
+
+        .h3 {
+            margin-top: 15%;
+            margin-left: 57%;
+            color: #283044;
+            font-family: 'David Libre', 'serif';
+
+        }
+
+        .h3a {
+            color: #283044;
+            margin-top: 20%;
+            margin-left: 25%;
+            font-family: 'David Libre', 'serif';
+        }
+
+        .a {
+            margin-left: 40%;
+            font-family: 'David Libre', 'serif';
+            color: ;
+            font-size: 15pt;
+            text-decoration: none;
+        }
+
+
+        img.user {
+            padding: -10px;
+            margin-right: -21%;
+            margin-left: 10%;
+            margin-bottom: -4%;
+        }
+
+        img.password {
+            padding: -10px;
+            margin-bottom: -4%;
+            margin-right: -20%;
+            margin-left: 10%;
+        }
+
+
+
+
+
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s
+        }
+
+        .sidenav a:hover,
+        .offcanvas a:focus {
+            color: #f1f1f1;
+        }
+
+        .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px !important;
+            margin-left: 50px;
+        }
+    </style>
+    <script>
+
+        function login() {
+            var uname = document.getElementById("email").value;
+
+            var password = document.getElementById("pass").value;
+
+            var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+            if (uname == '') {
+                swal("Please Enter Mobile Number.", " ", "info");
+            }
+            else if (password == '') {
+
+                swal("Enter valid Mobile Number.", " ", "info");
+            }
+
+            else if (!filter.test(uname)) {
+                swal("Enter valid Mobile Number.", " ", "info");
+            }
+
+            else if (password.length < 6 || password.length > 10) {
+                swal("Enter valid Mobile Number.", " ", "info");
+
+            }
+            else {
+                swal('Please Enter Valid Detils', " ", "warning");
+
+                window.location = "singup.html";
+
+            }
+
+        }
+
+    </script>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap" rel="stylesheet">
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="login.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ open</span>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+    </script>
+
+
+
+    <h2 class="title" ; align="center">OTP Book App</h2>
+
+    <img class="user" src="https://i.postimg.cc/dtdGjzfq/woman.png" width="50" height="50">
+
+    <input class="input1" type="text" id="email" placeholder="Mobile Number">
+
+    <br />
+<input class="button" type="button" value="Send OTP" onclick=login()><br>
+    <img class="password" src=" https://i.postimg.cc/NMqTsx6z/password.png" width="50" height="50">
+
+    <input class="input2" type="text" id="pass" placeholder="Enter The OTP"><br />
+
+    <input class="button" type="button" value="Submit" onclick=login()><br>
+
+  
+
+    <h3 class="h3a">Dont have an Account?</h3>
+    <a class="a" href="singup.html">Sign Up</a>
+
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6108b000d6e7610a49ae469e/1fc4uv223';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>
