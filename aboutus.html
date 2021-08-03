@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>About Us</title>
+</head>
+<style>
+  
+  body {
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+
+.pic{
+    border: 3px solid whitesmoke;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+h1 span{
+    color: rgb(53, 53, 53);
+}
+
+p{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+
+}
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+  color: #f1f1f1;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px !important;
+  margin-left: 50px;
+}
+</style>
+<body>
+      <div id="mySidenav" class="sidenav">
+
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+    <a href="login.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact Us</a>
+  
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ open</span>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+  </script>
+
+    <img class="pic"src="otp.png" alt="">
+
+    <div class="section">
+        <h1><span>About Us</span></h1>
+        <p>
+         
+
+We Are Provide Only Paid Services.
+Demo Service Not Available!
+If Any Problame Whatsaap To Our Team.
+Whatsaap Number Will be Provide Only To Paid Users.
+
+
+
+        </p>
+        <p class="quote">- Amar Sang</p>
+    </div>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6108b000d6e7610a49ae469e/1fc4uv223';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+</html>

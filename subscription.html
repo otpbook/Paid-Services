@@ -1,0 +1,407 @@
+<!-- Created by Shahid Iqbal -->
+
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name=viewport content="width=dev ise-width, initial-scale=1 user-scalable=no"></meta>
+    <link rel="stylesheet" type="text/css" href="D:\HTML+Css\Tables\font-awesome\css\font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Price Tables</title>
+</head>
+
+<style>
+/* Created by Shahid Iqbal */
+
+body
+{
+    margin:0;
+    padding:0;
+    font-family: Microsoft JhengHei;
+    background: #262620;
+
+}
+
+section
+{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 70px 0;
+    position: relative;
+   
+}
+.Space
+{
+    position: relative;
+  
+    bottom: 60px;
+    box-sizing: border-box;
+    margin: center;
+}
+.Space2
+{
+    position: relative;
+    bottom: 60px;
+    box-sizing: border-box;
+}
+.Space3
+{
+    position: relative;
+    left: 0px;
+    bottom: 60px;
+}
+
+.card
+{ 
+    
+    float:  center;
+    position: relative;
+    width: 300px;
+    height: auto;
+    background: linear-gradient(-45deg, #fe0847, #feae3f);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    transition: .5s;
+    box-shadow: 0 10px 15px rgba(0,0,0,.4);
+    overflow: hidden;
+
+}
+.card:hover
+{
+    transform: scale(1.1);
+}
+
+.Space:nth-child(1) .card
+
+{
+   background: linear-gradient(-45deg, #f403d1, #64b5f6);   
+
+}
+
+.Space2:nth-child(2) .card
+{
+   background: linear-gradient(-45deg, #ffec61, #f321d7);   
+
+}
+
+.Space3 .col-sm-4:nth-child(1) .card
+{
+   background: linear-gradient(-45deg, #24ff72, #9a4eff);   
+
+}
+
+.card:before
+{
+    content: "";  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: rgba(255,255,255,.1);
+    z-index: 1;
+    transform: skewY(-5deg) scale(1.5);
+
+}
+
+.title .fa
+{
+    color:#fff;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}
+
+.title h2
+{
+    position: relative;
+    margin: 20px 0 0;
+    padding: 0;
+    color: white;
+    font-size: 28px;
+    z-index: 2;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.3);
+
+}
+
+.price
+{
+    position: relative;
+    z-index: 2;
+}
+
+.price h4
+{
+    position: relative;
+    bottom: 10px;
+    margin: 0;
+    padding: 20px 0;
+    position: relative;
+    color: #fff;
+    text-shadow: 2px 2px 2px (0,0,0,.3);
+    font-size: 40px;
+}
+
+.options
+{
+    position: relative;
+    z-index: 2;
+}
+
+.options ul
+{
+    position: relative;
+    bottom: 8px;
+    margin: 0;
+    padding: 0;
+}
+.options ul li
+{
+    margin: 0 0 15px;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.4);
+}
+a
+{
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    color:  black;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px; 
+    display: block;
+    text-align: center;
+    margin: 20px auto 0;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+ a:hover
+ {
+    background: linear-gradient(orange 30%,red);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer; 
+ }
+
+  
+</style>
+<body>
+<a href="singup.html"> <img src="goback.png" 
+        height="40px" width="130px" alt="" /></a>
+  
+  
+    <section>
+        <div class="container-fluid">
+             <div class="container">
+             <div class="row">
+                 <div class="Space">
+                <div class="col-sm-4">
+                <div class="card" align="center">
+                <div class="title">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                <h2>Basic</h2>
+                </div>
+                <div class="price">
+                <h4><sup>Rs</sup>1000</h4>    
+                </div>
+                <div class="options">
+                 <ul>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                       700 INDIAN Number
+                    </li>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                        300 USA Number
+                    </li>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                       100 Gmail Adress
+                    </li>
+                    <li>
+                       <i class="fa fa-times" aria-hidden="true"></i>
+                       Velitedy 30 Days
+                    </li>
+                      <li>
+                       <i class="fa fa-times" aria-hidden="true"></i>
+                       Live Whatsaap Support
+                    </li>
+                 </ul>
+                </div>
+               <form>
+                  <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HgbI0QIxygtL8v"
+                     async> </script>
+               </form>
+                </div>
+                </div>
+                </div>
+                </div>
+<br>
+                <div class="Space2">
+                <div class="col-sm-4">
+                <div class="card" align="center">
+                <div class="title">
+                <i class="fa fa-plane" aria-hidden="true"></i>
+                <h2>Standard</h2>
+                </div>
+                <div class="price">
+                <h4><sup>Rs</sup>1500</h4>    
+                </div>
+                <div class="options">
+                 <ul>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                       1100 Indian Number
+                    </li>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                        480 USA Number
+                    </li>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                         170 Gmail Address
+                    </li>
+                      <li>
+                       <i class="fa fa-times" aria-hidden="true"></i>
+                       Velitedy 30 Days
+                    </li>
+                    <li>
+                       <i class="fa fa-times" aria-hidden="true"></i>
+                     Live Whatsaap Support
+                    </li>
+                 </ul>
+                </div>
+               <form>
+                  <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HgbJzV4TI8k35O"
+                     async> </script>
+               </form>
+                </div>
+                </div>
+                </div>
+             </div>
+<br>
+
+                 <div class="Space3">
+                <div class="col-sm-4">
+                <div class="card" align="center">
+                <div class="title">
+                <i class="fa fa-rocket" aria-hidden="true"></i>
+                <h2>Premium</h2>
+                </div>
+                <div class="price">
+                <h4><sup>Rs</sup>2000</h4>    
+                </div>
+                <div class="options">
+                 <ul>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                          1800 Indian Number
+                    </li>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                        780 USA Number
+                    </li>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                           270 Gmail Address
+                    </li>
+                      <li>
+                       <i class="fa fa-times" aria-hidden="true"></i>
+                       Velitedy 30 Days
+                    </li>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                       Live Whatsaap Support
+                    </li>
+                 </ul>
+                </div>
+               <form>
+                  <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HgbLXaQBh1vtnK"
+                     async> </script>
+               </form>
+                </div>
+                </div>
+                </div>
+                
+        <br>        
+                     <div class="Space2">
+
+                <div class="col-sm-4">
+
+                <div class="card" align="center">
+                <div class="title">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                <h2>PRO</h2>
+                </div>
+                <div class="price">
+                <h4><sup>Rs</sup>5000</h4>    
+                </div>
+                <div class="options">
+                 <ul>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                       Unlimited INDIAN Number
+                    </li>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                       Unlimited USA Number
+                    </li>
+                    <li>
+                       <i class="fa fa-check" aria-hidden="true"></i>
+                       Unlimited Gmail Adress
+                    </li>
+                    <li>
+                       <i class="fa fa-times" aria-hidden="true"></i>
+                       Velitedy 30 Days
+                    </li>
+                      <li>
+                       <i class="fa fa-times" aria-hidden="true"></i>
+                       Live Whatsaap Support
+                    </li>
+                 </ul>
+                </div>
+               
+<form>
+   <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HgbN5318RI5vJG"
+      async> </script>
+</form>
+
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        
+    </section>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+   var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+   (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/6108b000d6e7610a49ae469e/1fc4uv223';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+   })();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
